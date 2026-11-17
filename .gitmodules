@@ -7,4 +7,4 @@
 	branch = amd-master
 [submodule "third_party/aiter"]
 	path = third_party/aiter
-	url = https://github.com/ROCm/aiter.git
+	url = https://github.com/BakeLab/aiter.git
