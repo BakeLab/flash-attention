@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   prepare-release:
+    if: github.server_url == 'https://github.com'
     runs-on: ubuntu-latest
     outputs:
       release_tag: ${{ steps.resolve-tag.outputs.release_tag }}
